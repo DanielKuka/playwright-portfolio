@@ -19,8 +19,18 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'chromium',
+      name: 'ui',
+      use: {
+        ...devices['Desktop Chrome'],
+        baseURL: 'https://www.saucedemo.com',
+      },
+      testMatch: '**/tests/ui/**/*.test.ts',
+    },
+
+    {
+      name: 'api',
       use: { ...devices['Desktop Chrome'] },
+      testMatch: '**/tests/api/**/*.test.ts',
     },
   ],
 });
