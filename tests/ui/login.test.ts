@@ -7,14 +7,14 @@ test.describe('Login page', () => {
     })
 
     test('Login page should be rendered', async ({ sauceDemoSite }) => {
-        await expect(sauceDemoSite.page).toHaveURL('https://www.saucedemo.com')
+        await expect(sauceDemoSite.page).toHaveURL(`${sauceDemoSite.baseUrl}`)
         await expect(sauceDemoSite.login.loginButton).toBeVisible();
     })
 
     test('Should login with valid credentials', async ({sauceDemoSite}) => {
         await sauceDemoSite.login.fillLoginForm(USERS.standard);
         await sauceDemoSite.login.submit()
-        await expect(sauceDemoSite.page).toHaveURL('https://www.saucedemo.com/inventory.html', { timeout: 5000 });
+        await expect(sauceDemoSite.page).toHaveURL(`${sauceDemoSite.baseUrl}/inventory.html`, { timeout: 5000 });
     })
 
     test('Should show error with invalid credentials', async ({sauceDemoSite}) => {
