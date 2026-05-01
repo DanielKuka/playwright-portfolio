@@ -1,5 +1,7 @@
 # Playwright Portfolio
 
+![CI](https://github.com/DanielKuka/playwright-portfolio/actions/workflows/playwright.yml/badge.svg)
+
 A test automation portfolio project built with Playwright and TypeScript.  
 Covers API and UI testing with a clean architecture designed for scalability and maintainability.
 
