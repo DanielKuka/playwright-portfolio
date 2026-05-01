@@ -100,6 +100,7 @@ Tests reference `USERS.standard` instead of hardcoded strings.
 ## 🚀 Running Tests
 
 ### Install dependencies
+
 ```bash
 npm ci
 npx playwright install
