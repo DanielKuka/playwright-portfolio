@@ -5,6 +5,24 @@
 A test automation portfolio project built with Playwright and TypeScript.  
 Covers API and UI testing with a clean architecture designed for scalability and maintainability.
 
+## 🔗 Live Repository
+
+https://github.com/DanielKuka/playwright-portfolio
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates my QA Automation skills using Playwright, including:
+
+- UI testing (E2E flows)
+
+- API testing
+
+- Page Object Model architecture
+
+- CI/CD integration with GitHub Actions
+
 ---
 
 ## 🛠 Tech Stack
