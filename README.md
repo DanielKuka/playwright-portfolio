@@ -97,7 +97,7 @@ Tests reference `USERS.standard` instead of hardcoded strings.
 
 ---
 
-## 🚀 Running Tests
+## 🚀 How to Run Tests
 
 ### Install dependencies
 
