@@ -25,15 +25,7 @@ https://github.com/DanielKuka/playwright-portfolio
 
 ## 🎯 Purpose
 
-This project demonstrates my QA Automation skills using Playwright, including:
-
-- UI testing (E2E flows)
-
-- API testing
-
-- Page Object Model architecture
-
-- CI/CD integration with GitHub Actions
+This project demonstrates a scalable QA automation approach using Playwright, focusing on maintainable test architecture and real-world testing scenarios.
 
 ---
 
